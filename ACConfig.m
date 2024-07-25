@@ -1,7 +1,7 @@
 % Aircraft Configuration Data
 
 % Engine parameters
-max_throttle = 100.0; % Maximum throttle in N
+max_throttle = 10.0; % Maximum throttle in N
 
 % Aerodynamic parameters
 drag_coefficient = 0.02; % Drag coefficient
