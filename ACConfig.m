@@ -10,6 +10,8 @@ lift_coefficient = 1.5; % Lift coefficient
 % Mass and inertia
 aircraft_mass = 5; % Mass in kg
 moment_of_inertia = [5000, 6000, 7000]; % Moment of inertia in kg*m^2
+center_of_gravity = [0 0 0];
+center_of_pressure = [0 0 0];
 
 % Control limits
 max_aileron_deflection = 30; % Degrees
