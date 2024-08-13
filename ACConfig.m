@@ -6,6 +6,7 @@ max_throttle = 100.0; % Maximum throttle in N
 % Aerodynamic parameters
 drag_coefficient = 0.02; % Drag coefficient
 lift_coefficient = 1.5; % Lift coefficient
+alldata = datcomimport('astdatcom.out', true, 0);
 
 % Mass and inertia
 aircraft_mass = 5; % Mass in kg
